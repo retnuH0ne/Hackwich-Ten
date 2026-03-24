@@ -14,6 +14,9 @@ class ViewController: UIViewController
     
     @IBOutlet weak var myLabel: UILabel!
     
+    @IBOutlet weak var myTextField: UITextField!
+    
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -38,8 +41,7 @@ class ViewController: UIViewController
         
     }
     
-    @IBAction func myTextField(_ sender: Any) {
-    }
+    
     
 
 }

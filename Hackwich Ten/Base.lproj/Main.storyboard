@@ -50,6 +50,7 @@
                     </view>
                     <connections>
                         <outlet property="myLabel" destination="m30-Sc-Nz6" id="HFR-SC-ndh"/>
+                        <outlet property="myTextField" destination="wQU-u5-qBl" id="FNK-Jd-CpR"/>
                         <outlet property="segmentedControl" destination="D0I-QG-UZV" id="soi-c9-fzn"/>
                     </connections>
                 </viewController>
