@@ -18,7 +18,10 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
         
-        myLabel.text = "My Segmented Control"
+        myLabel.text = ""
+        
+        segmentedControl.selectedSegmentIndex = -1
+        
     }
 
     
@@ -26,12 +29,16 @@ class ViewController: UIViewController
     {
         switch segmentedControl.selectedSegmentIndex
         {
-        case 0: myLabel.text = "First Segment"
-        case 1: myLabel.text = "Second Segment"
+        case 0: myLabel.text = myTextField.text
+        case 1: myLabel.text = myTextField.text
+        case 2: myLabel.text = myTextField.text
         default: break
         }
         
         
+    }
+    
+    @IBAction func myTextField(_ sender: Any) {
     }
     
 
